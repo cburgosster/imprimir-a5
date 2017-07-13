@@ -6,7 +6,7 @@
  * and open the template in the editor.
  */
 
-require_once 'plugins/facturacion_base/extras/fs_pdf.php';
+require_once __DIR__.'/../extras/fs_pdf.php';
 require_model('articulo_traza.php');
 require_model('cliente.php');
 require_model('cuenta_banco.php');
