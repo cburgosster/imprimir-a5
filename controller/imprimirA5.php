@@ -81,7 +81,7 @@ class imprimirA5 extends fs_controller {
         $fsext->from = __CLASS__;
         $fsext->to = 'ventas_albaran';
         $fsext->type = 'pdf';
-        $fsext->text = 'A5';
+        $fsext->text = '<span class="glyphicon glyphicon-print"></span>&nbsp;A5';
         $fsext->params = '&albaran=TRUE';
         $fsext->save();
 
@@ -90,7 +90,7 @@ class imprimirA5 extends fs_controller {
         $fsext->from = __CLASS__;
         $fsext->to = 'ventas_factura';
         $fsext->type = 'pdf';
-        $fsext->text = 'A5';
+        $fsext->text = '<span class="glyphicon glyphicon-print"></span>&nbsp;A5';
         $fsext->params = '&factura=TRUE';
         $fsext->save();
     }
